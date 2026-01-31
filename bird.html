@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiYazılım</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            inset: 0;
+        }
+        html,body {
+            overflow: hidden;
+            color: aliceblue;
+            width: 100%;
+            height: 100%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        @font-face {
+            font-family: 'Tiny5';
+            src: url('./fonts/Tiny5-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        ::selection {
+            background-color: #007aff;
+        }
+    </style>
+</head>
+<body>
+    <script src="./confetti.min.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "mukk": "./mukk.js",
+                "p2": "./p2-es.js"
+            }
+        }
+    </script>
+    <script type="module" src="./bird.js"></script>
+
+    <div id="ad-container" style="
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+    height: 60px;
+    width: 100%;
+    ">
+    <script type="text/javascript">
+        atOptions = {
+        'key' : '4da7aed2ee99b4186e6c3bf8097d742b',
+        'format' : 'iframe',
+        'height' : 60,
+        'width' : 468,
+        'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/4da7aed2ee99b4186e6c3bf8097d742b/invoke.js"></script>
+    </div>
+
+</body>
+</html>
